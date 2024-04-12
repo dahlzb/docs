@@ -125,3 +125,22 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+node_modules/
+2/.vuepress/.cache/
+2/.vuepress/.temp/
+2/.vuepress/dist/
+
+# vuepress
+docs/.vuepress/dist
+
+# vscode
+.vscode
+
+# mac
+.DS_Store
+
+# 百度链接推送
+urls.txt
+
+
