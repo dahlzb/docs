@@ -1,5 +1,5 @@
-name: A TO A:GH_PAGES
-on: [push]
+name: jenkey2011/vuepress-deploy
+on: [push1]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
