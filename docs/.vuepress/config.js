@@ -3,7 +3,7 @@ const htmlModules = require("./configs/htmlModules.js");
 
 module.exports = {
 	theme: "vdoing", // 使用依赖包主题
-    base:"/docs/",
+	base: "/docs/",
 	title: "vuepress-theme-vdoing",
 	description: "一个基于VuePress的 知识管理&博客 主题",
 	// base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
@@ -16,13 +16,13 @@ module.exports = {
 
 	// 主题配置
 	themeConfig: {
-        nav:[
-            { text: "数据库", link: "/pages/55a64a/" },
-            { text: ".NET", link: "/pages/7aa833/" },
-            { text: "Docker", link: "/pages/69da9b/" },
-            { text: "Linux", link: "/pages/9c1e9a/" },
-            { text: "其它", link: "/pages/f9e38d/" },
-        ],
+		nav: [
+			{ text: "数据库", link: "/pages/55a64a/" },
+			{ text: ".NET", link: "/pages/7aa833/" },
+			{ text: "Docker", link: "/pages/69da9b/" },
+			{ text: "Linux", link: "/pages/9c1e9a/" },
+			{ text: "其它", link: "/pages/f9e38d/" },
+		],
 		// nav: [
 		// 	{ text: "首页", link: "/" },
 		// 	{
