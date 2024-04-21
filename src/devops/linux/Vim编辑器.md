@@ -1,6 +1,7 @@
 ---
-title: Linux Vim
+title: Vim编辑器
 date: 2024-04-12 17:07:05
+order: 2
 ---
 ## Vim编辑器
 
