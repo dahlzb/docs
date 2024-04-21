@@ -5,7 +5,7 @@ on:
   # 触发条件：在代码 push 到 master 分支后，自动执行该 workflow
   push:
     branches:
-      - master
+      - main
   # 每天两点自动运行
   schedule:
     - cron: "0 2 * * *"
