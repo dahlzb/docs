@@ -31,10 +31,15 @@ jobs:
         with:
           node-version: "latest"
 
+      - name: 设置 pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       # 如果缓存没有命中，安装依赖
       - name: Install dependencies
         run: |
-          npm ci
+          pnpm install
 
       # 生成静态文件
       - name: Build
