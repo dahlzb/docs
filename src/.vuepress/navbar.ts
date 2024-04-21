@@ -4,28 +4,29 @@ export default navbar([
 	"/",
 	{
 		text: "前端",
-		link: "/front/",
+		link: "/frontend/",
 	},
 	{
 		text: "后端",
-		link: "/backend/",
+		//icon: "pen-to-square",
+    prefix:"/backend/",
 		children: [{
       text: ".NET",
-      link: "/dotnet/",
+      link: "dotnet/",
     },{
       text: "数据库",
-		  link: "/database/",
+		  link: "database/",
     }],
 	},
 	{
 		text: "运维",
-		link: "/devops/",
+		prefix: "/devops/",
     children: [{
       text: "Linux",
-      link: "/linux/",
+      link: "linux/",
     },{
       text: "Docker",
-		  link: "/docker/",
+		  link: "docker/",
     }],
 	}
 ]);

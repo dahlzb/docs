@@ -1,7 +1,6 @@
 ---
 title: Github访问缓慢
 date: 2024-04-12 17:07:05
-permalink: /pages/6deef9/
 ---
 ## 完美解决Github访问缓慢问题
 

@@ -1,7 +1,6 @@
 ---
 title: Docker
 date: 2024-04-12 17:07:05
-#permalink: /pages/69da9b/
 ---
 
 
@@ -15,8 +14,6 @@ find / -name *.conf
 # 查看文件内容
 cat /etc/nginx/nginx.conf
 ```
-
-
 
 #### 开机启动
 

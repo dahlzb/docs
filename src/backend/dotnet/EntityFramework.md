@@ -1,11 +1,8 @@
 ---
 title: EntityFramework
 date: 2024-04-12 17:07:05
-permalink: /pages/d27b57/
 ---
 # EntityFramework
-
-
 
 ### SQL中like关键字结合SqlParameter
 

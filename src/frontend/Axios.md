@@ -1,7 +1,6 @@
 ---
 title: Axios
 date: 2024-04-12 17:07:05
-permalink: /pages/36e152/
 ---
 ## 什么是 axios？
 

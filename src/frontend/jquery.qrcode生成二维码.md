@@ -1,7 +1,6 @@
 ---
 title: qrcode生成二维码
 date: 2024-04-12 17:07:05
-#permalink: /pages/4a7a6e/
 ---
 ### jquery.qrcode生成二维码
 

@@ -1,15 +1,10 @@
 ---
-title: 反射
+title: Linux系统
 date: 2024-04-12 17:07:05
-permalink: /pages/aa35cc/
 ---
 
 
-## Linx系统
-
- ![Linux目录结构](https://doc.shiyanlou.com/linux_base/4-1.png)
-
-
+![Linux目录结构](https://doc.shiyanlou.com/linux_base/4-1.png)
 
 ### 常用命令
 
@@ -47,7 +42,7 @@ sudo apt-get install sysvbanner
 | `[^list]`               | 匹配 除 list 中的任意单一字符以外的字符    |
 | `[c1-c2]`               | 匹配 c1-c2 中的任意单一字符 如：[0-9][a-z] |
 | `{string1,string2,...}` | 匹配 string1 或 string2 (或更多)其一字符串 |
-| `{c1..c2}`              | 匹配 c1-c2 中全部字符 如{1..10}            |
+| `{c1..c2}`              | 匹配 c1-c2 中全部字符 如 `{1..10}`    |
 
 ### 用户及文件权限管理
 

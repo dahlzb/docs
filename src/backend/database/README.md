@@ -1,9 +1,8 @@
 ---
-title: 指南
-icon: signs-post
-category:
-  - 介绍
-tag:
+title: 数据库
+index: false
+dir:
+  order: 1
 ---
 
 <Catalog />

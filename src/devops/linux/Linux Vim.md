@@ -1,7 +1,6 @@
 ---
 title: Linux Vim
 date: 2024-04-12 17:07:05
-permalink: /pages/9c1e9a/
 ---
 ## Vim编辑器
 

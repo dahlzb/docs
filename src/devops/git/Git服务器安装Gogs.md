@@ -1,7 +1,6 @@
 ---
 title: Git服务器安装Gogs
 date: 2024-04-12 17:07:05
-permalink: /pages/d65595/
 ---
 ## Git服务器安装Gogs
 
