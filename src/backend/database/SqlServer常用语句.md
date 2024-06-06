@@ -17,24 +17,25 @@ UPDATE TableName SET 字段名 = REPLACE(字段名,'字段中修改前的数据'
 ``` sql
 ALTER TABLE 表名 ADD 列名 数据类型 是否为NULL 默认值
 -- 添加列
-ALTER TABLE [dbo].[AdvancePaymentOrders] ADD ServiceOrganName nvarchar(50) NULL
+ALTER TABLE [TableName] ADD [ColumnName] nvarchar(50) NULL
 -- 修改列
-ALTER TABLE [dbo].[AdvancePaymentOrders] ALTER COLUMN ServiceOrganName nvarchar(50) NOT NULL
+ALTER TABLE [TableName] ALTER COLUMN [ColumnName] nvarchar(50) NOT NULL
 -- 删除列
-ALTER TABLE [dbo].[AdvancePaymentOrders] DROP COLUMN [ProxyMerchantId]
+ALTER TABLE [TableName] DROP COLUMN [ColumnName]
 -- 删除表格
-DROP TABLE [dbo].[AuthPayMerchants]
+DROP TABLE [TableName]
 -- 删除视图
-DROP VIEW [dbo].[V_MerchantsAuthPay]
+DROP VIEW [ViewName]
+-- 清空数据表
+TRUNCATE TABLE [TableName]
 ```
 
 #### 定义变量
 
 ``` sql
 DECLARE @UserId uniqueidentifier
-SELECT @UserId = UserId FROM [YJY31.Users].[dbo].[UserThirdAccounts] WHERE ThirdAccount = '2088012569981173'
-DELETE [YJY31.Users].[dbo].[UserThirdAccounts] WHERE UserId = @UserId
-DELETE [YJY31.Users].[dbo].[Users] WHERE UserId = @UserId
+SELECT @UserId = UserId FROM [TableName] WHERE ThirdAccount = '2088012569981173'
+DELETE [TableName] WHERE UserId = @UserId
 ```
 
 #### 存储过程
